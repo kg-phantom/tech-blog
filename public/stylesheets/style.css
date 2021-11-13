@@ -178,6 +178,10 @@ textarea {
   border-radius: 5px;
 }
 
+.comment-form {
+  padding: 1%;
+}
+
 .status-icon {
   padding: 2px 5px;
   margin: 0 5px;
