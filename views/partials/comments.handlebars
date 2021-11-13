@@ -1,0 +1,13 @@
+<div class="list-group">
+    {{#each this}}
+    <section class="list-item">
+        <div class="list-item-header"></div>
+        <br />
+        <div class="content comment">
+            {{comment_text}}
+            <br />
+            - {{user.username}},  {{format_date created_at}}
+        </div>
+    </section>
+    {{/each}}
+</div>

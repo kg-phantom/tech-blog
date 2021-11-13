@@ -28,6 +28,15 @@ Post.init(
         }
     },
     {
+        hooks: {
+            async beforeDestroy(post) {
+                await Comment.destroy({
+                    where: {
+                        post_id: post.id
+                    }
+                })
+            }
+        },
         sequelize,
         freezeTableName: true,
         underscored: true,

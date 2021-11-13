@@ -1,3 +1,4 @@
+{{#if posts.length}}
 <section class="list-group">
     {{#each posts as |post|}}
     <div>
@@ -5,3 +6,8 @@
     </div>
     {{/each}}
 </section>
+{{else}}
+<section>
+    <h2>No Posts Yet!</h2>
+</section>
+{{/if}}
