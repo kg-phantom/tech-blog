@@ -71,7 +71,7 @@ textarea {
   width: 25%;
 }
 
- .btn {
+.btn {
   font-size: 1.3rem;
   text-decoration:none;
   padding: 6px 5px;
@@ -87,7 +87,7 @@ textarea {
   transform: translate(-1px, -1px);
 }
 
- .btn:hover {
+.btn:hover {
   color: var(--primary);
   background-color: var(--tertiary);
   transform: translate(0, 0);
@@ -201,34 +201,11 @@ textarea {
   color: rgb(29, 153, 255);
 }
 
-/* CARDS */
-.card {
-  margin: 0 0 20px 0;
-  border: 3px solid var(--dark);
-  border-radius: var(--border-radius);
-}
-
-.card-header {
-  color: var(--primary);
-  background-color: var(--dark);
-  padding: 2.5%;
-  border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
-}
-
-.card-body {
-  padding: 2.5%;
-}
-
 /* FORM */
 .form-label,
 .form-input,
 .form-textarea {
   display: block;
-}
-
-.form-label {
-  font-size: 1.1rem;
-  margin: 0 0 0 5px;
 }
 
 .form-input {
@@ -247,11 +224,6 @@ textarea {
 
 .min-100-vw {
   min-width: 100vw;
-}
-
-/* FONT UTILS */
-.text-uppercase {
-  text-transform: uppercase;
 }
 
 
