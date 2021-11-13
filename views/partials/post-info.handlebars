@@ -1,0 +1,11 @@
+<article class="list-item">
+    <div class="list-item-header flex-row align-center justify-space-between">
+        <p class="list-item-title">{{title}}</p>
+        <p class="list-item-info">Posted by {{user.username}} on
+        {{format_date created_at}}</p>
+    </div>
+    <div class="content">
+        <p>{{content}}</p>
+        <a href="/post/{{id}}">{{comments.length}} {{format_plural 'comment' comments.length}}</a>
+    </div>
+</article>
