@@ -67,6 +67,10 @@ textarea {
   font-size: 100%;
 }
 
+#new-post-btn {
+  width: 25%;
+}
+
  .btn {
   font-size: 1.3rem;
   text-decoration:none;
